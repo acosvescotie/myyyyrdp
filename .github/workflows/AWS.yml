@@ -1,6 +1,6 @@
 name: amazonRDP
 
-on: workflow_dispatch
+on: [pull requests, workflow_dispatch]
 
 jobs:
   build:
